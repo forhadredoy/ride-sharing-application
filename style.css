@@ -5,7 +5,6 @@ body {
   font-family: "JetBrains Mono", monospace;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
 }
 
 .navigation {
@@ -73,7 +72,9 @@ body {
 }
 .information .inf-1 {
   margin-right: 40px;
+  width: 30%;
 }
+
 .information h3 {
   font-weight: 600;
   font-size: 20px;
@@ -97,14 +98,14 @@ body {
   margin-bottom: 60px;
   -webkit-appearance: none;
   appearance: none;
-  background-color: #ff0081;
+  background-color: #000815;
   color: #fff;
   border-radius: 4px;
   border: none;
   cursor: pointer;
   position: relative;
   transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
-  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+  box-shadow: 0 2px 25px rgba(49, 26, 38, 0.5);
   font-size: 16px;
   font-family: "Helvetica", "Arial", sans-serif;
   text-align: center;
@@ -193,5 +194,214 @@ body {
     background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
       110% 10%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+.services {
+  display: flex;
+  padding: 60px 30px;
+  background: #000815;
+  margin-bottom: 120px;
+}
+.service-1 img {
+  height: 140px;
+  width: 200px;
+  border-radius: 60px;
+  margin-bottom: 20px;
+}
+.service-1 {
+  width: 22%;
+  margin-right: 40px;
+}
+.services h2 {
+  font-weight: 500;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+}
+.services p {
+  font-weight: 400;
+  font-size: 15px;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+}
+.unic {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.unic h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 29px;
+  font-family: "Open Sans", sans-serif;
+}
+.unic button {
+  padding: 13px 23px;
+  background: #002027;
+  color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  transition: 1s;
+  cursor: ponter;
+  font-family: "Open Sans", sans-serif;
+}
+
+.unic button:hover {
+  background: #000815;
+}
+.details {
+  display: flex;
+  padding: 20px 120px;
+}
+.details h1 {
+  color: #000815;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.details p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.details-1 {
+  background: #7473d0;
+  width: 22%;
+  padding: 80px 50px;
+  margin-right: 50px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.details-1:hover {
+  background: #9d8c93;
+}
+.details-2 {
+  background: #ff4f4f;
+  width: 22%;
+  padding: 80px 50px;
+  margin-right: 50px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.details-2:hover {
+  background: #ff086f;
+}
+
+.details-3 {
+  background: #27b6d6;
+  width: 22%;
+  padding: 80px 50px;
+  margin-right: 50px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.details-3 h1 {
+  margin-bottom: 40px;
+}
+.details-3:hover {
+  background: #c8c8c8;
+}
+
+.details-4 {
+  background: #aaca09ff;
+  width: 22%;
+  padding: 80px 50px;
+  margin-right: 50px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.details-4:hover {
+  background: #5cf609;
+}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: "IconicFill", sans-serif;
+}
+
+.wrap {
+  width: 300px;
+}
+.center {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  margin: auto;
+}
+
+input {
+  display: block;
+  width: 300px;
+  padding: 15px 0 15px 12px;
+  font-family: "Arvo";
+  font-weight: 400;
+  color: #377d6a;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2),
+    0 1px 1px rgba(255, 255, 255, 0.2);
+  text-indent: 60px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  font-size: 13px;
+}
+input:focus {
+  text-indent: 12px;
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
+    0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+label {
+  display: block;
+  position: static;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Arvo";
+  font-size: 16px;
+}
+
+.wrap-label {
+  width: 300px;
+  height: 34px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  bottom: -15px;
+  overflow: hidden;
+}
+
+.iconicfill-pen-alt2 {
+  position: absolute;
+  left: 10px;
+  color: #fff;
+  font-size: 19px;
+  opacity: 1;
+  top: -2px;
+  transform: translateX(-100px);
+}
+
+/* ==== Pen animation ==== */
+.move-pen {
+  animation: move-pen 1s ease-in infinite alternate;
+}
+@keyframes move-pen {
+  from {
+    transform: translateX(-4px) rotate(6deg);
+  }
+  to {
+    transform: translateX(4px) rotate(-3deg);
   }
 }
