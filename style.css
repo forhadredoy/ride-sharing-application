@@ -252,6 +252,7 @@ body {
 .details {
   display: flex;
   padding: 20px 120px;
+  margin-bottom: 60px;
 }
 .details h1 {
   color: #000815;
@@ -319,6 +320,75 @@ body {
 .details-4:hover {
   background: #5cf609;
 }
+
+.male {
+  display: flex;
+  width: 100%;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+.male-img img {
+  height: 500px;
+  width: 80vh;
+  margin-right: 40px;
+}
+.male-text {
+  margin-left: 20px;
+  width: 30%;
+  margin-top: 70px;
+  text-decoration: none;
+  margin-left: 70px;
+}
+.male-text h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+.male-text p {
+  margin-left: 70px;
+  font-family: "Open Sans", sans-serif;
+}
+.male-text a {
+  font-weight: bold;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.female {
+  display: flex;
+  width: 100%;
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
+.female-text {
+  margin-left: 40px;
+  width: 30%;
+  text-decoration: none;
+  margin-right: 70px;
+  margin-top: 80px;
+}
+.female-text h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+.female-text p {
+  margin-left: 70px;
+  font-family: "Open Sans", sans-serif;
+}
+.female-text a {
+  font-weight: bold;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.female-img img {
+  height: 500px;
+  width: 80vh;
+  margin-right: 40px;
+}
+
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js);
 @import url(https://fonts.googleapis.com/css?family=Arvo);
 /* iconicfill */
@@ -335,6 +405,13 @@ body {
   position: relative;
   margin: auto;
 }
+.input {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background: #000815;
+  padding: 120px 30px;
+}
 
 input {
   display: block;
@@ -342,35 +419,35 @@ input {
   padding: 15px 0 15px 12px;
   font-family: "Arvo";
   font-weight: 400;
-  color: #377d6a;
+  color: #ffffff;
   background: rgba(0, 0, 0, 0.3);
-  border: none;
+  border: 1px solid black;
   outline: none;
-  color: #fff;
+  color: rgb(230, 230, 230);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
-  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2),
+  box-shadow: inset 0 -5px 45px rgba(255, 235, 235, 0.2),
     0 1px 1px rgba(255, 255, 255, 0.2);
   text-indent: 60px;
   transition: all 0.3s ease-in-out;
   position: relative;
   font-size: 13px;
+  border-radius: 20px;
 }
 input:focus {
   text-indent: 12px;
-  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
+  box-shadow: inset 0 -5px 45px rgba(255, 255, 255, 0.4),
     0 1px 1px rgba(255, 255, 255, 0.2);
 }
 
 label {
   display: block;
   position: static;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  font-family: "Arvo";
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .wrap-label {
@@ -379,7 +456,6 @@ label {
   position: relative;
   padding: 0;
   margin: 0;
-  bottom: -15px;
   overflow: hidden;
 }
 
@@ -404,4 +480,176 @@ label {
   to {
     transform: translateX(4px) rotate(-3deg);
   }
+}
+.employes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/emplyes.jpg);
+  background-color: #002027;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.employes-1 {
+  width: 25%;
+  height: 60vh;
+  margin-right: 30px;
+  background: #000815;
+  border-radius: 30px;
+}
+.employes-1 h1 {
+  font-weight: bold;
+  color: aliceblue;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.employes-1 p {
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.employes-1 button {
+  background: #002027;
+  padding: 10px 30px;
+  text-align: center;
+  color: aliceblue;
+  margin-left: 60px;
+  border-radius: 30px;
+  transition: 1s;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.employes-1 button:hover {
+  background: #000815;
+}
+.footer {
+  width: 100%;
+  height: 150vh;
+  padding: 80px 0;
+  background: #000815;
+}
+
+.footer h1 {
+  color: aliceblue;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 70px;
+}
+.footer1 {
+  margin-bottom: 90px;
+}
+
+.footer1 p {
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-left: 70px;
+  margin-bottom: 90px;
+}
+
+#para {
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  text-align: right;
+  margin-right: 40px;
+}
+.element {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.element1 ul {
+  list-style-type: none;
+  margin-right: 100px;
+}
+.element1 ul li {
+  padding: 10px;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.element1 ul li a {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.element1 ul li a:hover {
+  color: #000000;
+}
+#company {
+  font-weight: bold;
+  font-size: 20px;
+}
+#products {
+  font-weight: bold;
+  font-size: 20px;
+}
+#global {
+  font-weight: bold;
+  font-size: 20px;
+}
+#travel {
+  font-weight: bold;
+  font-size: 20px;
+}
+.awesome {
+  display: flex;
+  margin-left: 90px;
+  margin-bottom: 40px;
+}
+.awesome i {
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+.awesome1 i:hover {
+  background: #007893;
+}
+.awesome1 i {
+  margin-right: 60px;
+  transition: 0.8s;
+}
+.awesome {
+  margin-left: 90px;
+}
+.awesome2 span {
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.awesome2 i {
+  transition: 0.8s;
+}
+.awesome2 i:hover {
+  background: #007893;
+}
+.last1 {
+  display: flex;
+}
+.last2 p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  margin-right: 700px;
+}
+.last3 ul {
+  list-style-type: none;
+  justify-content: right;
+}
+.last3 ul li {
+  padding: 12px 14px;
+  color: white;
+  cursor: pointer;
 }
